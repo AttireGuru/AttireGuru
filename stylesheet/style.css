@@ -1,0 +1,279 @@
+@media screen and (min-width:800px)
+{   
+     body
+     {background-color: white;
+
+     }
+    .bg-image
+    {
+        background-image: url('man\ with\ background.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        filter: blur(0.5px);
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    #logo
+    {
+        width:70% ;
+        height: 70%;
+        padding-left: 10%;
+    }
+    .nav
+    {
+        display: flex;
+        background: linear-gradient(180deg, #000 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
+    .nav-link
+    {
+        padding: 3%;
+        color: #FFF;
+        text-align: center;
+        font-family: Happy Monkey;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 17%;
+
+    }
+    .quote
+    {
+        font-size: 5.7vw;
+        padding-left: 46%;
+        padding-top: 8%;
+        backdrop-filter: 2px;
+        color: #FFF;
+        font-family: Hanuman;
+
+
+    }
+    #brands
+    {   background-color: #FFF;
+        margin: 0% 10% 0% 10%;
+    }
+    .brandimage
+    {
+        width: 8%;
+        height: 8%;
+        padding: 0% 0% 0% 4%;
+        align-items: center;
+    }
+    .paragraph
+    {
+        margin: 2% 10% 0% 10%;
+        text-align: center;
+        font-size: 2.5vw;
+        font-family: Sofia;
+
+    }
+    #pink-bg
+    {
+        background: linear-gradient(180deg, rgba(254, 204, 189, 0.00) 0%, #FECCBD 100%);
+        display: flex;
+        margin-top: 3%;
+    
+    }
+    .heading
+    {
+        font-size: 4vw;
+        line-height: 0.2px;
+        padding-left: 3%;
+    }
+    .content
+    {
+        font-size: 1.6vw;
+        padding-bottom: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    #middle
+    {
+        width: 20%;
+    }
+    .man-redcoat
+    {
+        align-items: center;
+        padding-left: 8%;
+        height: 600px;
+    }
+    #left
+    {
+        width: 40%;
+    }
+    #top-left
+    {
+        padding-top: 18%;
+    }
+    #bottom-left
+    {
+        padding-top: 12%;
+    }
+    #right
+    {
+        width: 40%;
+    }
+    
+    #w-c-u
+    {
+        display: flex;
+    }
+    .heading2
+    {
+        font-size: 3vw;
+        text-align: left;
+        font-family: permanent marker;
+        padding-left: 10%;
+    }
+    .content2
+    {
+        font-size: 1.6vw;
+        padding-left: 10%;
+        padding-right: 6%;
+
+    }
+    #left2
+    {
+        width: 25%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #middle2
+    {
+        width: 25%;
+        margin-left: 4%;
+        margin-right: 4%;
+
+    }
+    #right2
+    {
+        width: 25%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #models
+    {
+        display: flex;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .model
+    {
+        width: 25%;
+        height: 600px;
+        align-items: center;
+    }
+    #model1
+    {
+        background: linear-gradient(to bottom right,white,grey,black);
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #model2
+    {
+        background: linear-gradient(to bottom right,white,grey,black);
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 4%;
+    }
+    #model3
+    {
+        background: linear-gradient(to bottom right,white,grey,black);
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    model-viewer
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #footer
+    {
+        display: flex;
+        background: linear-gradient(white,rgb(66, 62, 62),black);
+    }
+    .icon
+    {
+        width: 40px;
+        height: 40px;
+        padding-left: 2%;
+    }
+    #footer1
+    {
+        width: 20%;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    #information
+    {
+        width: 20%;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    #locate
+    {
+        width: 20%;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    #discover
+    {
+        width: 20%;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    li 
+    {
+        list-style-type: none;
+    }
+    .footer
+    {
+        font-family: patrick;
+        font-size: 1.4vw;
+        color: white;
+    }
+    #locate-us
+    {
+        font-family: patrick;
+        color: white;
+    }
+    .heading3
+    {
+        font-family: permanent marker;
+        font-size: 2vw;
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    .nav-link:hover
+    {
+        color: blue;
+    }
+    .footer :hover
+    {
+        color: blue;
+    }
+    #footer-icon
+    {
+        margin-left: 3%;
+    }
+    .ag
+    {
+        padding-top: 15%;
+
+    }
+    .left-icon
+    {
+        padding-left: 16%;
+        padding-top: 4%;
+        
+    }
+}
+@media screen and ((min-width:300px) and (max-width:800px))
+{
+
+}

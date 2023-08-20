@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong|Hepta Slab|Patrick Hand|Happy Monkey">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+   .underline-text {
+  position: relative;
+  color: #000;
+  
+  text-align: center;
+  font-family: Hepta Slab;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: -200px;
+}
+ 
+
+.underline-text::after {
+  content: '';
+  /* Create the pseudo-element for the longer underline */
+  position: absolute;
+  left:0px;
+margin-left:30px;
+margin-right:30px;
+  bottom: 2px;
+  /* Adjust this value to control the distance between text and underline */
+
+  /* Adjust this value to control the length of the underline */
+  height: 2px;
+  background-color: black;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%; /* Adjust this value to control the length of the underline */
+  
+  
+}
+.content{
+color: #000;
+text-align: center;
+font-family: 'Happy Monkey',sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+  margin-top: -350px;
+  margin-left: 60px;
+  margin-right: 60px;}
+a 
+{ 
+        padding: 3%; 
+        color: #FFF; 
+        text-align: center; 
+        font-family: Happy Monkey; 
+        font-size: 30px; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: normal; 
+        width: 17%; 
+ 
+}
+
+#logo 
+    { 
+        width:70% ; 
+        height: 70%; 
+        padding-left: 10%; 
+    } 
+.nav 
+    { 
+        display: flex; 
+        background: linear-gradient(180deg, #000 0%, rgba(217, 217, 217, 0.00) 100%); 
+    }
+  </style>
+</head>
+<body>
+    <div class="nav"> 
+            <a href="">HOME</a> 
+            <a href="">TRENDING NOW</a> 
+            <a href=""> 
+                 <img id="logo" src="images/logo1.jpeg" alt="attire guru logo" srcset=""> 
+            </a> 
+            <a href="">CONTACT</a> 
+            <a href="">ABOUT US</a> 
+     
+    </div>
+  <h6 class="underline-text">OUR STORY</h6>
+  <p class="content">
+    "Being well-dressed hasn't much to do with having good clothes. It's a question of good balance and good common sense."
+    <br> Oscar de la Renta</br>
+    Fashion had always been something that I believed holds the power to boost one's confidence and self-expression.
+    <br><br>
+    Determined to make a positive impact, we took a leap of faith and decided to create a website that would help people to pair clothes, accessories, and shoes in a stylish manner. To bring the vision to life, our team of talented individuals, who have shared enthusiasm for fashion and believed in the mission.
+    <br><br>
+    Together, we brainstormed and developed a groundbreaking approach integrating 3D models into our website. This unique idea allowed users to virtually try on different outfits and experiment with styles, making the learning process engaging and fun.
+    <br><br>
+    Our journey is all about building confidence and helping you discover your personal flair. We believe that every outfit has a story to tell, and we are here to ensure that your story is told with style, authenticity, and elegance.
+    <br><br>
+    Join us on this adventure as we unravel the world of fashion and guide you on a path to effortlessly create outfits that speak volumes about who you are. This is our story, and we can't wait for you to be a part of it.
+  </p>
+</body>
+</html>
